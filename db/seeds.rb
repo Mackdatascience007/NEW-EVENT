@@ -20,7 +20,7 @@ User.destroy_all
         last_name: last_name_faker, 
         description: Faker::Quote.famous_last_words*20, 
         email: yop_email,
-        encrypted_password: "aaaaaa")
+        password: "aaaaaa")
 end
 
 print "Ok"
